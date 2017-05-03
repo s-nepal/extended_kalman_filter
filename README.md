@@ -4,7 +4,7 @@ This is a C++ implementation of the Extended Kalman Filter. Dummy data for the p
 
 This implementation of the Kalman Filter uses a sensor fusion approach to use incoming data (either from LiDAR or radar) to predict the location and speed (on an xy plane) of a pedestrian.
 
-To Compile:
+To Compile:<br />
 mkdir build
 cd build
 cmake ..
