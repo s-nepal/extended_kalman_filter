@@ -5,12 +5,12 @@ This is a C++ implementation of the Extended Kalman Filter. Dummy data for the p
 This implementation of the Kalman Filter uses a sensor fusion approach to use incoming data (either from LiDAR or radar) to predict the location and speed (on an xy plane) of a pedestrian.
 
 To Compile:<br />
-mkdir build
-cd build
-cmake ..
-make
+mkdir build<br />
+cd build<br />
+cmake ..<br />
+make<br />
 
-To Run:
+To Run:<br />
 ./ExtendedKF ../data/obj_pose-laser-radar-synthetic-input.txt output.txt
-
+<br />
 where "../data/obj_pose-laser-radar-synthetic-input.txt" and "output.txt" are the names of the input data file and the output data file respectively
